@@ -1,6 +1,10 @@
-.card{
+.hero{
     position: relative;
     top: 30px;
     left: 30px;
     background: lightgrey;
+}
+
+.card {
+    display:flex
 }
