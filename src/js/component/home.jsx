@@ -9,11 +9,23 @@ import rigoImage from "../../img/rigo-baby.jpg";
 //create your first component
 const Home = () => {
 	return (
-		<div>
+	<div>
+		<div class="top">
 			<Navbar />
-			<Hero />
-			<Card />
 		</div>
+			<div class="page">
+				<Hero />
+				<div class="cards">
+					<Card />
+					<Card />
+					<Card />
+					<Card />
+				</div>
+			</div>
+		<div class="footer">
+				<p>Copyright 2022</p>
+		</div>
+	</div>
 	);
 };
 

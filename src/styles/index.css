@@ -1,10 +1,39 @@
 .hero{
-    position: relative;
-    top: 30px;
-    left: 30px;
     background: lightgrey;
+    width: 1111px;
 }
 
 .card {
-    display:flex
+    margin-top: 39px;
+    margin-left: 30px;
+}
+
+.cards {
+    display: flex;
+}
+
+.page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 222px;
+}
+
+.footer {
+    color: white;
+    background: black;
+    position: static;
+    bottom: 0px;
+    height: 50px;
+    text-align: center;
+}
+
+.navbar {
+    width: 1111px;
+}
+
+.top {
+    display: flex;
+    justify-content: center;
+    background-color: #212529;
 }
